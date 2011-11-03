@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/formular
+# catalog-date 2007-01-05 21:30:32 +0100
+# catalog-license lppl
+# catalog-version 1.0a
 Name:		texlive-formular
 Version:	1.0a
 Release:	1
@@ -45,6 +51,7 @@ commands for defining such fields in a distinctive way.
 #- source
 %doc %{_texmfdistdir}/source/latex/formular/formular.dtx
 %doc %{_texmfdistdir}/source/latex/formular/formular.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ commands for defining such fields in a distinctive way.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
