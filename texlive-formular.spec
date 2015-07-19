@@ -6,7 +6,7 @@
 # catalog-version 1.0a
 Name:		texlive-formular
 Version:	1.0a
-Release:	9
+Release:	10
 Summary:	Create forms containing field for manual entry
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/formular
