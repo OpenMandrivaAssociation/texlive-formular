@@ -1,6 +1,6 @@
 Name:		texlive-formular
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Create forms containing field for manual entry
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/formular
