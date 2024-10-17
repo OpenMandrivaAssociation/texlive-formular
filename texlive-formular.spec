@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Create forms containing field for manual entry
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/formular
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/formular
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/formular.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/formular.doc.r%{version}.tar.xz
